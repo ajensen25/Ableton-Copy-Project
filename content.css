@@ -1,0 +1,10 @@
+.hero {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 85vh;
+  background-image: url("images/hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
