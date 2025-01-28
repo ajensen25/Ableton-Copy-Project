@@ -1,0 +1,157 @@
+.footer {
+  width: 83%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: var(--font-family-one);
+  padding: 6vw 0rem;
+}
+
+.footer-title {
+  font-size: 34px;
+  font-weight: 500
+}
+
+.footer-content {
+  padding: 5vw 0rem;
+  font-size: 14px;
+}
+
+.footer-row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.row-cell {
+  padding-bottom: 1.5rem;
+}
+
+.newsletter-title {
+  font-weight: 500;
+  line-height: 1.4rem;
+}
+
+.newsletter-subtitle {
+  line-height: 1.4rem;
+  padding-bottom: 1rem;
+}
+
+.newsletter-email-container {
+  display: flex;
+  align-items: center;
+}
+
+.newsletter-email-input {
+  height: 2rem;
+  border: none;
+  background-color: rgba(230, 230, 230, 0.669);
+  padding: 0.2rem 0.8rem;
+  font-family: var(--font-family-one);
+  width: 80%;
+
+}
+
+.newsletter-email-button {
+  height: 2rem;
+  border: none;
+  width: 20%;
+  background-color: blue;
+  color: white;
+  font-family: var(--font-family-one);
+  cursor: pointer;
+}
+
+
+
+.socials-links-navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.socials-links-navbar a {
+  padding: 0.2rem 0rem;
+}
+
+.socials-images-navbar {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.socials-image {
+  height: 2rem;
+  padding-right: 0.5rem;
+}
+
+#instagram-id {
+  height: 3rem;
+  padding-right: 0.2rem;
+  margin-left: -0.2rem;
+}
+
+#discord-id {
+  height: 1.7rem;
+}
+
+
+
+.education-title {
+  font-weight: 500;
+  line-height: 1.4rem;
+}
+
+.education-links-navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.education-links-navbar a {
+  padding: 0.2rem 0rem;
+}
+
+
+
+.language-title {
+  font-weight: 500;
+  line-height: 1.4rem;
+}
+
+.language-select {
+  display: flex;
+  align-items: center;
+  padding-top: 0.6rem;
+}
+
+.language-dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  width: 6.5rem;
+  padding: 0.3rem 0.6rem;
+  font-family: var(--font-family-one);
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  margin-right: 0.2rem;
+}
+
+.location-dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  width: 13rem;
+  padding: 0.3rem 0.6rem;
+  font-family: var(--font-family-one);
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.dropdown-arrow {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: -0.4rem;
+}
