@@ -12,3 +12,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.footer-space {
+  height: 20rem;
+}

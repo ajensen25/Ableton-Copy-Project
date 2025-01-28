@@ -1,10 +1,264 @@
+.content {
+  border-bottom: 1px solid rgba(166, 166, 166, 0.381);
+}
+
 .hero {
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 83%;
   height: 85vh;
   background-image: url("images/hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.hero-about, 
+.music-about, 
+.why-about, 
+.focus-about, 
+.passion-about, 
+.employees-about {
+  width: 83%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: var(--font-family-one);
+  padding: 3rem 0rem;
+  line-height: 1.7rem;
+}
+
+.hero-about-title, 
+.music-about-title, 
+.why-about-title, 
+.focus-about-title, 
+.passion-about-title, 
+.employees-about-title {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.hero-about-title span {
+  color: blue;
+}
+
+.hero-about-subtitle,
+.music-about-subtitle, 
+.why-about-subtitle, 
+.focus-about-subtitle, 
+.passion-about-subtitle, 
+.employees-about-subtitle {
+  padding: 1rem 0rem;
+  line-height: 1.4rem;
+  font-size: 14px;
+}
+
+
+
+.music {
+  padding: 10% 0rem;
+  position: relative;
+}
+
+.music-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 83%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.music-main-image {
+  background-image: url("https://ableton-production.imgix.net/about/photo-1.jpg?dpr=2&fit=crop&h=404&ixjsv=1.1.3&q=50&w=404");
+  background-size: cover;
+  width: 40vw;
+  height: 40vw;
+}
+
+.music-sub-image {
+ background-image: url("https://ableton-production.imgix.net/about/photo-2.jpg?dpr=2&fit=crop&h=19&ixjsv=1.1.3&q=50&w=25");
+ background-size: cover;
+ width: 35vw;
+ height: 25vw;
+}
+
+.music-background {
+  background-color: #fbffa7;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 40%;
+  z-index: -1;
+}
+
+
+
+.why-ableton {
+  width: 83%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 45vw;
+  margin-bottom: 10%;
+}
+
+.why-ableton-video {
+  width: 100%;
+  height: 90%;
+}
+
+.why-ableton-description {
+  padding-left: 0.8rem;
+  font-family: var(--font-family-one);
+  font-size: 13px;
+  font-weight: 500;
+  height: 10%;
+}
+
+
+
+.focus {
+  padding: 8% 0rem;
+  position: relative;
+}
+
+.focus-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 83%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.focus-main-image {
+  background-image: url("https://ableton-production.imgix.net/about/photo-5.jpg?dpr=2&fit=crop&h=192&ixjsv=1.1.3&q=50&w=192");
+  background-size: cover;
+  width: 40vw;
+  height: 40vw;
+}
+
+.focus-sub-images-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.focus-sub-image {
+  background-image: url("https://ableton-production.imgix.net/about/photo-4.jpg?dpr=2&fit=crop&h=115&ixjsv=1.1.3&q=50&w=154");
+  background-size: cover;
+  width: 33vw;
+  height: 25vw;
+}
+
+#image1 {
+  background-image: url("https://ableton-production.imgix.net/about/photo-3.jpg?dpr=2&fit=crop&h=115&ixjsv=1.1.3&q=50&w=154");
+  margin-bottom: 3rem;
+}
+
+.focus-background {
+  background-color: #b6ffc0;
+  position: absolute;
+  right: 40%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+
+.passion {
+  width: 83%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.passion-image {
+  width: 100%;
+}
+
+#subtitle2 {
+  padding-top: 0;
+}
+
+
+
+.employees {
+  padding: 10% 0rem;
+  position: relative;
+}
+
+.employees-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 91%;
+  margin-left: auto;
+}
+
+.employees-main-image {
+  background-image: url("https://ableton-production.imgix.net/about/photo-7.jpg?dpr=2&fit=crop&h=31&ixjsv=1.1.3&q=50&w=31");
+  background-size: cover;
+  width: 40vw;
+  height: 40vw;
+}
+
+.employees-sub-image {
+ background-image: url("https://ableton-production.imgix.net/about/photo-6-a.jpg?dpr=2&fit=crop&h=19&ixjsv=1.1.3&q=50&w=25");
+ background-size: cover;
+ width: 35vw;
+ height: 25vw;
+}
+
+.employees-background {
+  background-color: #d5b3ff;
+  position: absolute;
+  right: 17%;
+  top: 0;
+  bottom: 0;
+  left: 17%;
+  z-index: -1;
+}
+
+
+
+.latest-jobs {
+  background-color: #b1c5ff;
+  width: 83%;
+  height: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+}
+
+.latest-jobs-image {
+  background-image: url("https://ableton-production.imgix.net/about/photo-8.jpg?crop=right&dpr=2&fit=crop&h=37&ixjsv=1.1.3&q=50&w=62");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 83vw;
+  height: 60vw;
+}
+
+.latest-jobs-description-container {
+  font-family: var(--font-family-one);
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.latest-jobs-description {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.8rem;
+  margin-top: -1rem;
+}
+
+.latest-jobs-link {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  color: blue;
+  cursor: pointer;
 }
