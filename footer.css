@@ -135,6 +135,7 @@
   font-size: 12px;
   cursor: pointer;
   margin-right: 0.2rem;
+  background-color: rgb(242, 242, 242);
 }
 
 .location-dropdown {
@@ -148,10 +149,74 @@
   font-weight: 500;
   font-size: 12px;
   cursor: pointer;
+  background-color: rgb(242, 242, 242);
 }
 
 .dropdown-arrow {
   height: 1.5rem;
   width: 1.5rem;
   margin-right: -0.4rem;
+}
+
+
+.footer-left {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-left a {
+  font-size: 12px;
+  font-weight: 500;
+  padding-bottom: 0.5rem;
+}
+
+
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+
+.footer-right p {
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: -1.8rem;
+}
+
+.footer-right-logo {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+@media only screen and (width > 1020px) {
+  .footer-row {
+    flex-direction: row;
+    width: 100%;
+  }
+  .row-cell {
+    margin-right: 2rem;
+  }
+  .socials-image {
+    height: 1.5rem;
+  }
+  #instagram-id {
+    height: 2.2rem;
+    padding-right: 0.2rem;
+    margin-left: -0.2rem;
+  }
+  #discord-id {
+    height: 1.3rem;
+  }
+  .footer-left {
+    flex-direction: row;
+  }
+  .footer-left a {
+    margin-right: 0.5rem;
+  }
+  #bottom-row {
+    justify-content: space-between;
+  }
+  .footer-title {
+    font-size: 50px;
+  }
 }
